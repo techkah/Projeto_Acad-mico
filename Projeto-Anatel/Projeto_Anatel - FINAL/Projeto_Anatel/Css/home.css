@@ -1,0 +1,163 @@
+
+body, ul, p{
+    margin:0px;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+
+body{
+    background-color: #fff;
+    padding: 0 22px; /*padding lateral para centralizar o conteúdo */
+    color:#494848;
+}
+
+
+p{
+    padding: 0 10px 10px 0;
+    margin-top: 0;          
+}
+
+
+/*Estilização da barra de navegação*/
+a{
+    text-decoration: none;
+    color: #484949;
+    font-weight: bold;
+}
+
+header{
+    background-color: #f6f6f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.logo img{
+    margin-top: 0;
+    width: 30%;
+    height: 40%;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #13753c;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: #1bc515; 
+}
+
+/*Estilização do body*/
+h1{
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+.Botao{
+    text-align: center;
+}
+
+.Botao, h1{
+    margin-top: 40px;
+    clear: both
+}
+
+
+.alinha img {
+    float: left;           
+    width: 650px;
+    height: 400px;          
+    margin-right: 25px;    
+    margin-bottom: 15px;   
+    padding: 15px;            
+    vertical-align: top;   
+    background-attachment: yellow;
+}
+
+
+/* Estilização da Seção Parceiros */
+.Parceiros {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 60px;               
+  list-style: none;          
+  padding: 0;
+  margin: 30px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.Parceiros li {
+  display: flex;
+  flex-direction: column;    
+  align-items: center;       
+  text-align: center;
+  width: auto; 
+}
+
+.Parceiros img {
+  max-width: 150px;         
+  height: auto;
+  margin-bottom: 0px;       
+  padding: 0;              
+}
+
+.Parceiros a {
+    text-decoration: none; 
+}
+
+/* Estilização dos Formulários */
+fieldset{
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+}
+
+fieldset, input, select, textarea{
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+}
+
+fieldset,label{
+    font-weight: bold;
+}
+
+/*Estilização rodapé*/
+footer.rodapé {
+  background-color: #f6f6f7;       
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top: 2px solid #ccc;
+}
